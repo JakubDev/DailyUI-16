@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #dce2e5;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{
+    width: 450px;
+    height: 520px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(185, 185, 185);
+}
+
+.exit{
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 430px;
+    top: -15px;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(185, 185, 185);
+}
+
+.header{
+    color: #cbfed6;
+    font-size: 100px;
+    position: relative;
+    top: -100px;
+    left: -73px;
+    letter-spacing: 5px;
+}
+
+.line{
+    width: 200px;
+    height: 15px;
+    background-color: #cbfed6;
+    position: relative;
+    top: -150px;
+    left: 300px;
+}
+
+.lines{
+    width: 15px;
+    height: 100px;
+    background-color: #cbfed6;
+    position: relative;
+    top: -100px;
+}
+
+.head{
+    letter-spacing: 2.5px;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    top: -220px;
+    color: rgb(31, 31, 31);
+}
+
+.text{
+    text-align: center;
+    color: rgb(175, 175, 175);
+    letter-spacing: 1px;
+    position: relative;
+    top: -200px;
+}
+
+.button{
+    position: relative;
+    top: -150px;
+    font-size: 20px;
+    border: 2px solid #cbfed6;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        width: 310px;
+        height: 420px;
+        border-radius: 10px;
+    }
+
+    .exit{
+        left: 279px;
+        top: -15px;
+    }
+
+    .header{
+        font-size: 50px;
+        top: -80px;
+        left: 30px;
+    }
+
+    .line{
+        height: 12px;
+        top: -120px;
+        left: 110px;
+    }
+
+    .head{
+        top: -170px;
+    }
+
+    .text{
+        top: -150px;
+    }
+
+    .button{
+        top: -120px;
+    }
+}
